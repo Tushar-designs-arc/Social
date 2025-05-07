@@ -17,6 +17,7 @@ body {
     margin: 60px 0;
     padding: 0 100px;
     height: 68px;
+    gap: 70px;
 }
 
 .Logo {
@@ -78,6 +79,7 @@ body {
     width: 100%;
     height: 515px;
     padding: 0 100px;
+    gap: 70px;
 }
 
 .header_desc {
@@ -115,7 +117,113 @@ body {
     background-color: #191A23;
     gap: 10px;
 }
+
 .header_img {
     width: 600.46px;
     height: 515px;
+}
+
+/* Section 3 */
+.brands {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+    padding: 0 100px;
+    gap: 70px;
+}
+
+.brands img {
+    mix-blend-mode: luminosity;
+}
+
+/* Section 4 */
+.sub_header {
+    display: flex;
+    width: 100%;
+    height: 51px;
+    padding: 0 100px;
+    gap: 40px;
+    margin-top: 140px;
+    padding-bottom: 80px;
+}
+
+.sub_header h1 {
+    width: 178px;
+    height: 51px;
+    border-radius: 7px;
+    padding: 0 7px;
+    gap: 10px;
+    background-color: #B9FF66;
+}
+
+.sub_header p {
+    width: 580px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 100%; */
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/* Section 5 */
+.cards {
+    width: 100%;
+    height: 1010px;
+    gap: 40px;
+}
+
+.cards div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 310px;
+    padding: 0 100px;
+    gap: 40px;
+}
+
+.cards .card {
+    width: 600px;
+    height: 310px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    padding: 50px;
+    background-color: #F3F3F3;
+    box-shadow: 0 5px 0 0 #191A23;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 221px;
+    height: 210px;
+    /* gap: 93px; */
+}
+
+.card h3 {
+    width: 221px;
+    height: 76px;
+    color: #000000;
+    background-color: #B9FF66;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+/* Section 6 */
+.content_block{
+    width: 100%;
+    height: 394px;
+    padding: 0 100px;
+}
+.content_block div{
+    width: 100%;
+    height: 347px;
+    border-radius: 45px;
+    padding: 0 60px;
+    gap: 275px;
+    background-color: #F3F3F3;
 }
